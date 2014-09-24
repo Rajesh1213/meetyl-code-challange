@@ -1,0 +1,19 @@
+.col-md-12
+  %center
+    = image_tag @picture.image_url(:original), :class => "img-thumbnail", :id => "MainImage", :data =>{"picture-id" => @picture.id}
+
+.col-md-12{:style => "margin-top: 50px;"}
+  %center
+    .col-md-12
+      %ul#myTab.nav.nav-tabs{:role => "tablist"}
+        %li.active
+          %a{"data-toggle" => "tab", :href => "#home", :role => "tab"} Comment
+        %li
+          %a{"data-toggle" => "tab", :href => "#profile", :role => "tab"} View All Comments
+ 
+.tab-content{:style => "margin: 50px 0px 0px 10px;"}
+  #home.tab-pane.active
+    .clearfix
+    = render :partial => "/comments/form"
+  #profile.tab-pane
+    = render :partial => "/comments/list_comments"

@@ -1,0 +1,290 @@
+GIT
+  remote: git://github.com/carrierwaveuploader/carrierwave-datamapper.git
+  revision: 47d45655796f82535cc053ed2217bd9a23812678
+  branch: master
+  specs:
+    carrierwave-datamapper (0.2.2)
+      carrierwave (~> 0.8.0)
+      dm-core (~> 1.1)
+
+GIT
+  remote: git://github.com/datamapper/dm-active_model.git
+  revision: c3b6ee07d40b8e2b4dbd60166a707da45beaefb4
+  branch: release-1.2
+  specs:
+    dm-active_model (1.2.1)
+      activemodel (>= 3.0, < 5.0)
+      dm-active_model
+      dm-core (~> 1.2, >= 1.2.0)
+
+GIT
+  remote: git://github.com/datamapper/dm-aggregates.git
+  revision: 278042a49310baf42f18fac85a574e7c88923669
+  branch: release-1.2
+  specs:
+    dm-aggregates (1.2.0)
+      dm-core (~> 1.2.0)
+
+GIT
+  remote: git://github.com/datamapper/dm-constraints.git
+  revision: 754f0b45d4eaafd5a9f7a2014d88a2b5c97e4dcb
+  branch: release-1.2
+  specs:
+    dm-constraints (1.2.0)
+      dm-core (~> 1.2.0)
+
+GIT
+  remote: git://github.com/datamapper/dm-core.git
+  revision: ee7042f33b2687d9b590fbbb6ab7f4d7795328f2
+  branch: release-1.2
+  specs:
+    dm-core (1.2.1)
+      addressable (~> 2.3, >= 2.3.5)
+
+GIT
+  remote: git://github.com/datamapper/dm-do-adapter.git
+  revision: 1309550a6bdf62b6a02e246bca3ed729db2142c0
+  branch: release-1.2
+  specs:
+    dm-do-adapter (1.2.1)
+      data_objects (~> 0.10.6)
+      dm-core (~> 1.2.0)
+
+GIT
+  remote: git://github.com/datamapper/dm-migrations.git
+  revision: 28bb3b0c3005773ad09e9ee82cf8d45f93a9ec48
+  branch: release-1.2
+  specs:
+    dm-migrations (1.2.0)
+      dm-core (~> 1.2.0)
+
+GIT
+  remote: git://github.com/datamapper/dm-rails.git
+  revision: 30e992275262245b24a71cf09dc57fa3b723eb85
+  branch: release-1.2
+  specs:
+    dm-rails (1.2.1)
+      actionpack (>= 3.0, < 5.0)
+      dm-active_model (~> 1.2.0)
+      dm-core (~> 1.2.0)
+      railties (>= 3.0, < 5.0)
+
+GIT
+  remote: git://github.com/datamapper/dm-serializer.git
+  revision: fe4ff03d6c989b6903790fc297c463b4837459fb
+  branch: release-1.2
+  specs:
+    dm-serializer (1.2.2)
+      dm-core (~> 1.2.0)
+      fastercsv (~> 1.5)
+      json (~> 1.6)
+      json_pure (~> 1.6)
+      multi_json (~> 1.0)
+
+GIT
+  remote: git://github.com/datamapper/dm-sqlite-adapter.git
+  revision: 04c13a60531de09c9f0d0803182fe5dc4379704f
+  branch: release-1.2
+  specs:
+    dm-sqlite-adapter (1.2.0)
+      dm-do-adapter (~> 1.2.0)
+      do_sqlite3 (~> 0.10.6)
+
+GIT
+  remote: git://github.com/datamapper/dm-timestamps.git
+  revision: 1d3e199632c8e97a964f843786a7039e3398f135
+  branch: release-1.2
+  specs:
+    dm-timestamps (1.2.0)
+      dm-core (~> 1.2.0)
+
+GIT
+  remote: git://github.com/datamapper/dm-transactions.git
+  revision: a400e7ffdca0a358b44698259584bb5c29f9f1b8
+  branch: release-1.2
+  specs:
+    dm-transactions (1.2.0)
+      dm-core (~> 1.2.0)
+
+GIT
+  remote: git://github.com/datamapper/dm-validations.git
+  revision: b6542e79bb2ea022241ee8cf1e861153824ffda4
+  branch: release-1.2
+  specs:
+    dm-validations (1.2.0)
+      dm-core (~> 1.2.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    actionmailer (4.1.0)
+      actionpack (= 4.1.0)
+      actionview (= 4.1.0)
+      mail (~> 2.5.4)
+    actionpack (4.1.0)
+      actionview (= 4.1.0)
+      activesupport (= 4.1.0)
+      rack (~> 1.5.2)
+      rack-test (~> 0.6.2)
+    actionview (4.1.0)
+      activesupport (= 4.1.0)
+      builder (~> 3.1)
+      erubis (~> 2.7.0)
+    activemodel (4.1.0)
+      activesupport (= 4.1.0)
+      builder (~> 3.1)
+    activerecord (4.1.0)
+      activemodel (= 4.1.0)
+      activesupport (= 4.1.0)
+      arel (~> 5.0.0)
+    activesupport (4.1.0)
+      i18n (~> 0.6, >= 0.6.9)
+      json (~> 1.7, >= 1.7.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.1)
+      tzinfo (~> 1.1)
+    addressable (2.3.6)
+    arel (5.0.1.20140414130214)
+    bootstrap-sass (3.2.0.2)
+      sass (~> 3.2)
+    builder (3.2.2)
+    carrierwave (0.8.0)
+      activemodel (>= 3.2.0)
+      activesupport (>= 3.2.0)
+    coffee-rails (4.0.1)
+      coffee-script (>= 2.2.0)
+      railties (>= 4.0.0, < 5.0)
+    coffee-script (2.3.0)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.8.0)
+    data_objects (0.10.14)
+      addressable (~> 2.1)
+    do_sqlite3 (0.10.14)
+      data_objects (= 0.10.14)
+    elasticsearch (1.0.2)
+      elasticsearch-api (= 1.0.2)
+      elasticsearch-transport (= 1.0.2)
+    elasticsearch-api (1.0.2)
+      multi_json
+    elasticsearch-transport (1.0.2)
+      faraday
+      multi_json
+    erubis (2.7.0)
+    execjs (2.2.1)
+    faraday (0.9.0)
+      multipart-post (>= 1.2, < 3)
+    fastercsv (1.5.5)
+    haml (4.0.5)
+      tilt
+    hashie (3.1.0)
+    hike (1.2.3)
+    i18n (0.6.11)
+    jbuilder (2.1.3)
+      activesupport (>= 3.0.0, < 5)
+      multi_json (~> 1.2)
+    jquery-rails (3.1.2)
+      railties (>= 3.0, < 5.0)
+      thor (>= 0.14, < 2.0)
+    json (1.8.1)
+    json_pure (1.8.1)
+    mail (2.5.4)
+      mime-types (~> 1.16)
+      treetop (~> 1.4.8)
+    mime-types (1.25.1)
+    mini_magick (3.8.1)
+      subexec (~> 0.2.1)
+    minitest (5.4.1)
+    multi_json (1.10.1)
+    multipart-post (2.0.0)
+    polyglot (0.3.5)
+    rack (1.5.2)
+    rack-test (0.6.2)
+      rack (>= 1.0)
+    rails (4.1.0)
+      actionmailer (= 4.1.0)
+      actionpack (= 4.1.0)
+      actionview (= 4.1.0)
+      activemodel (= 4.1.0)
+      activerecord (= 4.1.0)
+      activesupport (= 4.1.0)
+      bundler (>= 1.3.0, < 2.0)
+      railties (= 4.1.0)
+      sprockets-rails (~> 2.0)
+    railties (4.1.0)
+      actionpack (= 4.1.0)
+      activesupport (= 4.1.0)
+      rake (>= 0.8.7)
+      thor (>= 0.18.1, < 2.0)
+    rake (10.3.2)
+    rdoc (4.1.2)
+      json (~> 1.4)
+    sass (3.2.19)
+    sass-rails (4.0.3)
+      railties (>= 4.0.0, < 5.0)
+      sass (~> 3.2.0)
+      sprockets (~> 2.8, <= 2.11.0)
+      sprockets-rails (~> 2.0)
+    sdoc (0.4.1)
+      json (~> 1.7, >= 1.7.7)
+      rdoc (~> 4.0)
+    spring (1.1.3)
+    sprockets (2.11.0)
+      hike (~> 1.2)
+      multi_json (~> 1.0)
+      rack (~> 1.0)
+      tilt (~> 1.1, != 1.3.0)
+    sprockets-rails (2.1.4)
+      actionpack (>= 3.0)
+      activesupport (>= 3.0)
+      sprockets (~> 2.8)
+    sqlite3 (1.3.9)
+    subexec (0.2.3)
+    thor (0.19.1)
+    thread_safe (0.3.4)
+    tilt (1.4.1)
+    treetop (1.4.15)
+      polyglot
+      polyglot (>= 0.3.1)
+    turbolinks (2.3.0)
+      coffee-rails
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
+    uglifier (2.5.3)
+      execjs (>= 0.3.0)
+      json (>= 1.8.0)
+    will_paginate (3.0.6)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bootstrap-sass (~> 3.2.0)
+  carrierwave-datamapper!
+  coffee-rails (~> 4.0.0)
+  dm-active_model!
+  dm-aggregates!
+  dm-constraints!
+  dm-core!
+  dm-do-adapter!
+  dm-migrations!
+  dm-rails!
+  dm-serializer!
+  dm-sqlite-adapter!
+  dm-timestamps!
+  dm-transactions!
+  dm-validations!
+  elasticsearch
+  haml
+  hashie
+  jbuilder (~> 2.0)
+  jquery-rails
+  mini_magick
+  rails (= 4.1.0)
+  sass-rails (~> 4.0.3)
+  sdoc (~> 0.4.0)
+  spring
+  sqlite3
+  turbolinks
+  uglifier (>= 1.3.0)
+  will_paginate (~> 3.0)

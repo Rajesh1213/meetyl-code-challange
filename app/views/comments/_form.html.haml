@@ -1,0 +1,8 @@
+.col-md-12
+  .commentForm{:style => "margin: 20px;"}
+    = form_for @comment, :html => {:class => "form-horizontal"}, :remote => true do |f|
+      .form-group
+        = f.text_area :message, :class => "form-control", :rows => 3,  :placeholder => 'Comment here'
+      = f.hidden_field :picture_id
+      .form-group  
+        = f.submit :class => "btn btn-primary btn-block"

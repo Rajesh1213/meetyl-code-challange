@@ -1,0 +1,9 @@
+%br
+- if @comments.length > 0
+  %ul.list-group
+    - @comments.each do |comment|
+      %li.list-group-item
+        = comment.message
+- else
+  %div.alert.alert-info
+    "No Comments Posted Yet..."

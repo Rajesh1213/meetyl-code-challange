@@ -1,0 +1,13 @@
+%h2
+  %center Pictures
+.row
+  - @pictures.each do |picture|
+    .col-md-2
+      .thumbnail
+        = image_tag picture.image_url(:thumb) if picture.image?
+        .caption
+          %h3= picture.title
+          %p
+            = picture.description
+          = link_to 'Show', picture_path(picture), :class => 'btn btn-primary'
+= will_paginate @pictures
